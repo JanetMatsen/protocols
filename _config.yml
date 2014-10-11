@@ -9,18 +9,17 @@ permalink:           pretty
 relative_permalinks: true
 
 # Setup
-title:               Lanyon
-tagline:             'A Jekyll theme'
-description:         'A reserved <a href="http://jekyllrb.com" target="_blank">Jekyll</a> theme that places the utmost gravity on content with a hidden drawer. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
-url:                 http://lanyon.getpoole.com
+title:               Janet Matsen's protocols
+tagline:             'Delicious recipies.'
+description:         'Developed in the <a href="http://depts.washington.edu/mllab/" target="_blank">Lidstrom Lab</a>.'
+url:                 http://matsen.github.io/lanyon
 baseurl:             /
-paginate:            5
 
 # About/contact
 author:
-  name:              Mark Otto
-  url:               https://twitter.com/mdo
-  email:             markdotto@gmail.com
+  name:              Janet Matsen
+  url:               https://twitter.com/janetmatsen
+  email:             jmatsen@uw.edu
 
 # Custom vars
 version:             1.0.0
