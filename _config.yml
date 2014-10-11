@@ -9,16 +9,16 @@ permalink:           pretty
 relative_permalinks: true
 
 # Setup
-title:               Janet Matsen's protocols
+title:               "Janet Matsen's protocols"
 tagline:             'for metabolic engineering.'
 description:         'Developed in the <a href="http://depts.washington.edu/mllab/" target="_blank">Lidstrom Lab</a>.'
 url:                 http://janetmatsen.github.io/protocols
+baseurl:             http://janetmatsen.github.io/protocols/
 
 # About/contact
 author:
-  name:              Janet Matsen
+  name:              'Janet Matsen'
   url:               https://twitter.com/janetmatsen
-  email:             jmatsen@uw.edu
 
 # Custom vars
 version:             1.0.0
