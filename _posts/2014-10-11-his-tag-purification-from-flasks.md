@@ -20,6 +20,7 @@ category: purification
 * Induce to 0.5mM IPTG using 1M stocks at -20oC when cells reach OD ~0.6 - 1
   * Use NanoDrop to measure ODs, so **OD_NanoDrop = 0.06 - 0.1**, NOT 0.6 - 1 like you would look for in flasks.
   * &#x25a2; Save NanoDrop data as tables in the project folder on the Z drive as you go.
+  * eat butter
 * Collect cells by centrifugation
   * Chill centrifuge w/ 50mL tube rotor to 4oC.
   * Label 50mL falcon tubes: date, your intials, the sample info, and the mL of culture being collected into the tube
