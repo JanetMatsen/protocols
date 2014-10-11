@@ -7,32 +7,32 @@ category: purification
 ## Grow cells
 * decide between pET and pTrc
 * decide source of overnight cultures
-** fresh transform?  reasonly recent old transform?  -80oC stock? 
+  * fresh transform?  reasonly recent old transform?  -80oC stock?
 * prepare media:
   * decide TB vs LB.  TB may give higher OD and/or [protein/cell]
   * include antibiotics: (2uL/mL for Amp, 1uL/mL if Kan)
 * Day 1: Inoculate overnights.  Inoculate at least 1mL of overnight per 50mL of culture.  Use 50mL falcon tube.
-** Consider preparing media in large flask(s)
+  * Consider preparing media in large flask(s)
 * Inoculate flasks (Day 2).
-** Use up to 1mL of overnight per 50mL of culture you are inoculating.
-** More inoculum --> less time until cells should be induced.
-* Thaw 1M IPTG stock from -20oC by moving it to the fridge. 
+  * Use up to 1mL of overnight per 50mL of culture you are inoculating.
+  * More inoculum --> less time until cells should be induced.
+* Thaw 1M IPTG stock from -20oC by moving it to the fridge.
 * Induce to 0.5mM IPTG using 1M stocks at -20oC when cells reach OD ~0.6 - 1
-** Use NanoDrop to measure ODs, so **OD_NanoDrop = 0.06 - 0.1**, NOT 0.6 - 1 like you would look for in flasks. 
-** Save NanoDrop data as tables in the project folder on the Z drive as you go. 
+  * Use NanoDrop to measure ODs, so **OD_NanoDrop = 0.06 - 0.1**, NOT 0.6 - 1 like you would look for in flasks.
+  * Save NanoDrop data as tables in the project folder on the Z drive as you go.
 * Collect cells by centrifugation
-** Chill centrifuge w/ 50mL tube rotor to 4oC. 
-** Label 50mL falcon tubes: date, your intials, the sample info, and the mL of culture being collected into the tube
+  * Chill centrifuge w/ 50mL tube rotor to 4oC.
+  * Label 50mL falcon tubes: date, your intials, the sample info, and the mL of culture being collected into the tube
 * Flash freeze cells (optional)
-** Use -20oC for short-term (days/weeks) storage, and -80oC for long term storage. 
+  * Use -20oC for short-term (days/weeks) storage, and -80oC for long term storage.
 
 ## Prepare Buffers
 * Buffer currently in use:
-** 50mM sodium phosphate buffer, pH 7.4. 
+  * 50mM sodium phosphate buffer, pH 7.4.
 * Decide amounts to make
-  * Make a few times more than you need.  Excess buffer can be used for subsequent purifications. 
+  * Make a few times more than you need.  Excess buffer can be used for subsequent purifications.
   * Use spreadsheet aid volume planning
-** Verify that you have basic PO4 buffer, PO4 + NaCl buffer, lysis buffer, salty wash buffer, unsalty wash buffer, elution buffer. 
+* &#x25a2; Verify that you have basic PO4 buffer, PO4 + NaCl buffer, lysis buffer, salty wash buffer, unsalty wash buffer, elution buffer.
 
 ## Prepare columns
 * chose a method of holding up the column
