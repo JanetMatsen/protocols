@@ -1,0 +1,19 @@
+html {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 13px;
+  line-height: 1.25;
+}
+
+.container {
+  max-width: 100rem;
+}
+@media (min-width: 38em) {
+  .container {
+    max-width: 100rem;
+  }
+}
+@media (min-width: 56em) {
+  .container {
+    max-width: 100rem;
+  }
+}
