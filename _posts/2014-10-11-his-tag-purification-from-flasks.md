@@ -24,8 +24,8 @@ category: purification
 
 ## Prepare columns
 * chose a method of holding up the column
-  * <img src="/images/141008_use_tube_rack_to_hold_tall_columns.jpg" height="100">
-* ![alt text](/images/141008_use_tube_rack_to_hold_tall_columns.jpg)
+  * <img src="/protocols/images/141008_use_tube_rack_to_hold_tall_columns.jpg" height="100">
+* ![alt text](/protocols/images/141008_use_tube_rack_to_hold_tall_columns.jpg)
 * chose a method of pulling liquid through the column when it is slow.
   * flow through the column is slow when there is a bubble or when the solution is viscous.
   * you can use a 1mL pipette tip to pull solution through the bottom, use a centrifuge in a 15mL falcon tube, or use "the pig."
