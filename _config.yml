@@ -12,7 +12,7 @@ relative_permalinks: true
 title:               Janet Matsen's protocols
 tagline:             'for metabolic engineering.'
 description:         'Developed in the <a href="http://depts.washington.edu/mllab/" target="_blank">Lidstrom Lab</a>.'
-url:                 http://matsen.github.io/lanyon
+url:                 http://janetmatsen.github.io/protocols
 baseurl:             /
 
 # About/contact
