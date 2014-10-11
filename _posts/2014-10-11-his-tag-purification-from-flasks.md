@@ -37,11 +37,8 @@ category: purification
 * load lysed samples
 
 
------
-
 <div class="message">
-* <del>Deleted</del> text should use `<del>` and <ins>inserted</ins> text should use `<ins>`.
-* Superscript <sup>text</sup> uses `<sup>` and subscript <sub>text</sub> uses `<sub>`.
+This is a special message.
 </div>
 
 
