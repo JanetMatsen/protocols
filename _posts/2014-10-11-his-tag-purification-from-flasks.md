@@ -55,7 +55,7 @@ category: purification
 * Chose a column size
   * the lysate volume is the most important parameter.  If in doubt, chose the [largest ones] (http://www.bio-rad.com/en-us/product/poly-prep-chromatography-columns?pcp_loc=catprod). 
 * chose a method of holding up the column
-  * <img src="/protocols/images/141008_use_tube_rack_to_hold_tall_columns.jpg" height="100">
+  * <img src="/protocols/images/141008_use_tube_rack_to_hold_tall_columns.jpg" height="200">
 * chose a method of pulling liquid through the column when it is slow.
   * flow through the column is slow when there is a bubble or when the solution is viscous.
   * you can use a 1mL pipette tip to pull solution through the bottom, use a centrifuge in a 15mL falcon tube, or use "the pig."
