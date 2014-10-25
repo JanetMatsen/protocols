@@ -85,7 +85,7 @@ category: purification
 * Chose a column size
   * the lysate volume is the most important parameter.  If in doubt, chose the [largest ones] (http://www.bio-rad.com/en-us/product/poly-prep-chromatography-columns?pcp_loc=catprod).  The volume of lysate is the most relevant parameter to column size, because the resin volume is small relative to the lysate. 
 * chose a method of holding up the column
-  * one option: <img src="/protocols/images/141008_use_tube_rack_to_hold_tall_columns.jpg" height="200">
+  * one option: <img src="/protocols/images/141008_use_tube_rack_to_hold_tall_columns.jpg" height="100">
   * You can also use "the pig" if vacuum filtration will be used.  Rinse the places your columns will touch "the pig" before and after pig use. 
 * chose a method of pulling liquid through the column when it is slow.
   * flow through the column is slow when there is a bubble or when the solution is viscous.
@@ -135,7 +135,7 @@ category: purification
 
 ## Do a happy dance 
 You are finished! 
-<img src="/protocols/images/happy_dance_penguin.jpeg">
+<img src="/protocols/images/happy_dance_penguin.jpeg", size=80>
 * Leave protein in a styrafoam box filled with fresh ice in the cold room if not using proteins that day. 
 
 <div class="message">
