@@ -135,7 +135,7 @@ category: purification
 
 ## Do a happy dance 
 You are finished! 
-<img src="./protocols/images/happy_dance_penguin.jpeg">
+<img src="/protocols/images/happy_dance_penguin.jpeg">
 * Leave protein in a styrafoam box filled with fresh ice in the cold room if not using proteins that day. 
 
 <div class="message">
