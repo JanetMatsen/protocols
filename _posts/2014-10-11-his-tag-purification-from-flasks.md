@@ -3,7 +3,7 @@ layout: post
 title: His tag purification
 category: purification
 ---
-
+hi
 ## Grow cells
 * decide between pET and pTrc
 * decide source of overnight cultures
@@ -41,7 +41,7 @@ category: purification
 * Put on rocker with maximum tilt and speed set to ___.
 ** Too fast might shear the DNA & break it.  Not sure if that is really bad, but could elute and increase the A280 measurement. 
 ** Try to prop up the cap side of the tubes so the liquid hits the whole pellet each time it sloshes to the pellet side of the tube
-** Check whether pellet is dissolving every ~20 minutes.  Vortex lightly if pellet is remaining stuck to the bottom of the tube.
+  *Check whether pellet is dissolving every ~20 minutes.  Vortex lightly if pellet is remaining stuck to the bottom of the tube.
 
 ## Clarify Lysates 
 * Lysates are spun down to get rid of insoluble material including whole cells and membranes
@@ -51,12 +51,11 @@ category: purification
 * Spin at max RPM (14000?) for 30 minutes.  
 ** It is better to set the centrifuge to spin indefinitely.  If the centrifuge stops for a while, the pellets may get loose and the lysate will un-clarify to some extent.
 
-
 ## Prepare columns
 * Chose a column size
-  * the lysate volume is the most important parameter.  If in doubt, chose the largest ones. 
+  * the lysate volume is the most important parameter.  If in doubt, chose the [largest ones] (http://www.bio-rad.com/en-us/product/poly-prep-chromatography-columns?pcp_loc=catprod). 
 * chose a method of holding up the column
-  * <img src="/protocols/images/141008_use_tube_rack_to_hold_tall_columns.jpg" height="100">
+  * <img src="/protocols/images/141008_use_tube_rack_to_hold_tall_columns.jpg" height="200">
 * chose a method of pulling liquid through the column when it is slow.
   * flow through the column is slow when there is a bubble or when the solution is viscous.
   * you can use a 1mL pipette tip to pull solution through the bottom, use a centrifuge in a 15mL falcon tube, or use "the pig."
@@ -65,7 +64,12 @@ category: purification
   * buffer contains 20% ethanol and should be flushed
 *  &#x25a2;rinse resin by applying 1mL of NaCl PO4 buffer
 * firmly place yellow caps at the bottom opening before loading samples
-* load lysed samples
+* load lysed samples (described below)
+
+## Load protein onto washed resin 
+* Load the clear portion of the centrifuged lysats.  Avoid distrubing the cell pellet, and any goopy stuff at the bottom near the pellet. 
+* Place the clear cap on firmly
+* 
 
 
 <div class="message">
