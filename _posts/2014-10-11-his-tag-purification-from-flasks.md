@@ -18,7 +18,7 @@ category: purification
   * More inoculum --> less time until cells should be induced.
 * Thaw 1M IPTG stock from -20oC by moving it to the fridge.
 * Induce to 0.5mM IPTG using 1M stocks at -20oC when cells reach OD ~0.6 - 1
-  * Use NanoDrop to measure ODs, so **OD_NanoDrop = 0.06 - 0.1**, NOT 0.6 - 1 like you would look for in flasks.
+  * Use NanoDrop to measure ODs, so **OD_NanoDrop = 0.06 - 0.1**, NOT 0.6 - 1 like you would look for in 1mL cuvettes.
   * &#x25a2; Save NanoDrop data as tables in the project folder on the Z drive as you go.  The ODs at induction are the most important
 * Collect cells by centrifugation
   * Chill centrifuge w/ 50mL tube rotor to 4oC.
