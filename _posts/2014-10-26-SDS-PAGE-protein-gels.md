@@ -29,3 +29,10 @@ category: protein
 ## Decide how much excess to prepare
 * Planning what you will load each lane in advance is helpful for this.
 * If the protein isn't precious, make a few times more than is required so you can re-run if necessary.
+
+## Prepare samples
+* Use Janet's home-made 4X loading dye.  Before use, add 4% by volume beta mercaptoethanol (b-ME) so the final sample will have 1%. 
+  * Prepare a little excess (~10%)
+* Add loading dye to samples in PCR tubes
+* Boil for 5 min on a thermocycler
+  * 100oC for 5 minutes
