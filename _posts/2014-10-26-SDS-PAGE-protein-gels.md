@@ -36,3 +36,10 @@ category: protein
 * Add loading dye to samples in PCR tubes
 * Boil for 5 min on a thermocycler
   * 100oC for 5 minutes
+
+## Run gel
+* Janet has been pre-running the gel for 15 min at 60V, but I'm not convinced this is necessary.
+* Run at 200V for ~30 min, check gel, then keep running until the band you want to detect is near the bottom of the gel.  
+  * ACS is ~ 74.5 kDa 
+  * ADH 3K9D is ~ 49 kDa
+  * The ladder we usually use is PageRuler Prestained.  
