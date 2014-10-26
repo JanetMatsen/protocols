@@ -43,3 +43,7 @@ category: protein
   * ACS is ~ 74.5 kDa 
   * ADH 3K9D is ~ 49 kDa
   * The ladder we usually use is PageRuler Prestained.  
+
+## Wash & Stain gel
+* Wash SDS (soap) out of the gel by taking it out of the plates, and putting it in a tupperware of fresh DI water.  
+  * Let stand ~10 min for equilibrium.  Repeat 3 times.  Insufficient washing --> whole gel stains & you can't see where the bands are.  
