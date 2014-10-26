@@ -1,5 +1,7 @@
 # Dependencies
-markdown:            redcarpet
+markdown:            kramdown
+kramdown:
+  input: GFM
 highlighter:         pygments
 
 # Permalinks
@@ -18,7 +20,7 @@ baseurl:             http://janetmatsen.github.io/protocols/
 # About/contact
 author:
   name:              'Janet Matsen'
-  url:               https://twitter.com/janetmatsen
+  url:               http://openwetware.org/wiki/User:Janet_B._Matsen
 
 # Custom vars
 version:             1.0.0
