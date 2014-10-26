@@ -24,7 +24,7 @@ category: protein
 ### Purified protein:
 * ~40 ng seems about right. -JM
   * This means the minimum concentration is ~5ng/uL. When you load 7.5uL in the skinny-comb gels (becomes 10uL after adding 4X buffer) you get ~40 ng in the gel.
-* 4 to 8 uL*uM works well for ~50-70kDa enzymes. If the stock is 1uM, add 4-8uL. If it is 4uM, add 1-2uL. *JM 20 August 2014*
+* 4 to 8 uL\*uM works well for ~50-70kDa enzymes. If the stock is 1uM, add 4-8uL. If it is 4uM, add 1-2uL. *JM 20 August 2014*
 
 ## Decide how much excess to prepare
 * Planning what you will load each lane in advance is helpful for this.
