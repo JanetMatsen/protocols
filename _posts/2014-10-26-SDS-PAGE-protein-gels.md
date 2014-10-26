@@ -17,8 +17,23 @@ category: protein
 ## Preparing samples
 * Decide how much sample to load per well
   * Often it is useful to load a few different concentrations so you are likely to get a loading that is informative (not under or over loaded).
+
+First Header  | Second Header
+------------- | -------------
+Content Cell  | Content Cell
+Content Cell  | Content Cell
+
+
+protein source | amt. to load| comments
+---------------|-------------
+total cell protein (lysed & spun down | 5-8 or even 20ug per well (mini protean 10-well comb) |
+cell cultures (total protein) | ~5-8 uL of turbid TB E. coli for skinny wells.  Becomes 10uL after adding 4X buffer |
+purified protein | ~40ng for skinny wells  | So minimum concentration is ~5ng/uL 
+
+* blah blah
+
   * ***Total Cell Protein*** (lysed & spun down)
-     * Load 5-8 or even up to 20ug per well. (for Mini Protean with 10 well comb)
+    * Load 5-8 or even up to 20ug per well. (for Mini Protean with 10 well comb) 
   * ***Cell Cultures*** (total protein)
     * 7.5 uL of turbid TB E. coli is about right for skinny wells. This becomes 10uL after adding 4X buffer.
   * ***Purified protein:***
