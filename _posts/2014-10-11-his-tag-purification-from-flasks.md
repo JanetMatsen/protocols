@@ -1,7 +1,7 @@
 ---
 layout: post
 title: His tag purification
-category: purification
+category: protein
 ---
 
 ## Things that can be done at "waiting steps":

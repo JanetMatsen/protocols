@@ -1,5 +1,11 @@
+---
+layout: post
+title: SDS PAGE protein gels
+category: protein
+---
+
 ## Resources:
-* http://openwetware.org/wiki/Lidstrom:_SDS-PAGE
+* <http://openwetware.org/wiki/Lidstrom:_SDS-PAGE>
 
 ## Pouring your own SDS-PAGE gel
 * Janet will handle this for the forseeable future.   

@@ -3,9 +3,9 @@ layout: default
 title: Home
 ---
 
-## Purification
+## Protein
 <ul class="posts">
-{% for post in site.categories.purification %}
+{% for post in site.categories.protein %}
     <li> <a href=".{{ post.url }}">{{ post.title }}</a> </li>
 {% endfor %}
 </ul>
