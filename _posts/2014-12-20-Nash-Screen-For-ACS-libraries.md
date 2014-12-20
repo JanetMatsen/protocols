@@ -11,7 +11,16 @@ category: enzyme_assays
   * Include a title like 141220 plate4 because the R script will parse out the plate number and use it to match to the well description.  
 
 ## Have ready:
-* Purified
+* Purified ADH.  
+* 
+
+## Move the following items to the plate reader 
+* all the electronic and non-electronic pipettes
+* BugBuster
+* purified ADH
+* 
+* leave the ACS cells on the shaker so they don't settle.
+
 
 ## Grow cells
 * decide between pET and pTrc.  Decide host strain.
