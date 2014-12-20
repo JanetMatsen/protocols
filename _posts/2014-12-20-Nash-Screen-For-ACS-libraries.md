@@ -5,12 +5,13 @@ category: enzyme_assays
 ---
 
 ## Things that can be done at "waiting steps":
-* Prepare labeled tubes:
-  * Cell collection tubes
-  * Elution tubes
-  * Tubes to collect flow-through, washes (when rarely desired)
-* Prepare gDoc spreadsheet:
-  * A280 calculations: sample names, MW (molecular weight), A280 for 1g/mL, uL resin, mL culture, culture identifying number
+* Prepare labeled plates:
+  * assay plates: non-UV 1/2 area plates.  Label non-UV on the left skinny side, and label the date and description on the front wide side.
+* add data from the plate reader software to the gSpreadsheet.  
+  * Include a title like 141220 plate4 because the R script will parse out the plate number and use it to match to the well description.  
+
+## Have ready:
+* Purified
 
 ## Grow cells
 * decide between pET and pTrc.  Decide host strain.
