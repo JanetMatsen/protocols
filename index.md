@@ -10,3 +10,11 @@ title: Home
 {% endfor %}
 </ul>
 
+## Enzyme Assays
+<ul class="posts">
+{% for post in site.categories.enzyme_assays %}
+    <li> <a href=".{{ post.url }}">{{ post.title }}</a> </li>
+{% endfor %}
+</ul>
+
+
