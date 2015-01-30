@@ -23,10 +23,13 @@ category: enzyme_assays
 
 ## Weigh chemicals
 * Use spreadsheet to calculate amount of each ingredient to weigh out.
-* Prepare eppendorf tubes for cofactors: NADH, CoA, Mg++.  Name & date on top.  
+* Prepare eppendorf tubes for cofactors: NADH, CoA, Mg++.  Name & date on top. 
+	* Don't put these on ice or they will attract water precipitation.  
 * Label a 15mL tub for formate: date, formate, concentration, 
 * Item locations:
-  * NADH, ATP, CoA: -20oC freezer closest to Amanda's bench.  NADH & CoA are in a plastic baggie at the very bottom, in the clear bin.  ATP is in a bigger bottle a few shelves up, and is shared with Amanda. 
+	* NADH, ATP, CoA: -20oC freezer closest to Amanda's bench.  NADH & CoA are in a plastic baggie at the very bottom, in the cl
+ear bin.  ATP is in a bigger bottle a few shelves up, and is shared with Amanda. 
+	* formate is in the Na (sodium bin), and MgCl2 is in the M bin.  
 * Put temperature sensitive reagents on ice
 * Weigh on most precise balance, being careful not to get water on the tubes (will effect measurement)
   * CoA is expensive ($231/100mg bottle); don't get much more than is required. NADH is medium-expensive, so don't go crazy with that either. 
@@ -84,7 +87,7 @@ Current recipe as of 141220:
 
 ## Add Nash reagent 
 * Usually an equal volume of Nash reagent is added.  The reaction essentially(?) stops when the Nash reagent is added.  
-* Move plate to 55oC or 61oC box for color development. 
+* Move plate to 55oC or 61oC box for color development. ~30 minutes is appropriate.  
 * Remove plate to scan spectrum.
 
 ## If you want to scan the plate to plot the data, TCA precipitation is necessary
