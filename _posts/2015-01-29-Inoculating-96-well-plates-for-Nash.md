@@ -16,9 +16,9 @@ category: enzyme_assays
 
 ## Prepare previous day(s):
 * A plan of what you are trying to test
-** Just screening new random libray variants?
-** Are there old colonies that need to be re-tested? 
-** Do some samples need to be run with biological replicates? 
+	* Just screening new random libray variants?
+	* Are there old colonies that need to be re-tested? 
+	* Do some samples need to be run with biological replicates? 
 * Plates with low enough colony density for picking colonies
 * sterile toothpicks
 * A 96-well plan with a color-coded cartoon of the pattern you are creating
