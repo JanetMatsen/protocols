@@ -41,14 +41,34 @@ elutions | 1.5mL - 4mL | chose smaller volumes if you want to get a few fraction
 		* Resuspend the Kanamycin and syring filer it into the flasks
 		* Inoculate the flasks with ~10mL of overnight culture per liter of autoinduction media base
 
+## Finalize purification plans
+* Use [this spreadsheet](https://docs.google.com/spreadsheets/d/1oLDPxM6pbjul0TU0kZnZZwuXRpIY0xC7nsihhSPGGJ0/edit#gid=2074177923) as a guide.  All info should be entered in here upon completion. 
+* Previously used or new resin? 
+* Include controls like new resin done in parallel? 
+
 ## Centrifuge in the Sorvoll floor centrifuge
+
 ## French press in the large french press cell
+
 ## Clairify lysates in the Sorvoll 
+
 ## Prepare resin
+
 ## Load clairified lysate onto resin
+
 ## Wash loaded resin
+
 ## Elute ADH from the resin
+
 ## Quantify uMs via NanoDrop A280 readings
+* Enter A280 values into [this spreadsheet](https://docs.google.com/spreadsheets/d/1oLDPxM6pbjul0TU0kZnZZwuXRpIY0xC7nsihhSPGGJ0/edit#gid=2074177923). 
+
+## Clean resin for re-use
+
 ## Pool desirable elutions
+
 ## Flash freeze and store at -80oC 
+
+## Record notes
+* [this spreadsheet](https://docs.google.com/spreadsheets/d/1oLDPxM6pbjul0TU0kZnZZwuXRpIY0xC7nsihhSPGGJ0/edit#gid=2074177923) will contain the parameters for all ADH batch purifications we do. 
 
