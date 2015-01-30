@@ -12,7 +12,8 @@ category: enzyme_assays
 * label calculated uM values on ADH tubes for later freezing.  
 
 ## Have ready:
-* Purified ADH.  
+* Purified ADH.
+	* Takes a while to thaw from -80oC
 * Fully grown-out autoinduced ACS enzyme variants with controls present on the plate.
   * Include a diagonal stripe of the + control ACS L641P, and some P641L and K609A controls elsewhere 
   * Was selective antibiotic included? 
@@ -29,7 +30,8 @@ category: enzyme_assays
 * Put temperature sensitive reagents on ice
 * Weigh on most precise balance, being careful not to get water on the tubes (will effect measurement)
   * CoA is expensive ($231/100mg bottle); don't get much more than is required. NADH is medium-expensive, so don't go crazy with that either. 
-* Record weights measured on tube, in notebook, and in spreadsheet.  
+* Record weights measured on tube, in notebook, and in spreadsheet.
+* Add the appropriate amount of buffer based on spreadsheet calculations.   
 
 ## Move the following items to the plate reader
 * a 50mL tube with some assay buffer 
@@ -37,25 +39,33 @@ category: enzyme_assays
 * BugBuster
 * purified ADH
 * lab notebook
-* headphones
 * leave the ACS cells on the shaker so they don't settle.
 * Nash reagent.  Ideally keep on ice in a dark bucket.  Make sure it isn't "to yellow"
+* headphones
 
 ## Prepare the plate reader
 * Establish a connection between the computer & plate reader.  May require restarting the computer. 
 * Make or copy an old PDA file into a new folder with the expriment date
+	* set spectra to scan from 350nm to 550nm with step size of 2nm
 * Note that when you save the PDA files, do save as and change the filename a little bit.  This is because saving is WAY slower than save as.  Eg.  filename--v5.pda is saved as filename--v6.pda
 * Naming of the scan is crucial: the name is parsed by the R file, and the plate name is crucial for matching data to the descriptive well information in a different spreadsheet.  
 
-## Current recipe:
+## Screening a whole plate:
+* Make a master mix of ADH (7uM final), NADH (6mM final), CoA (1mM final), ATP (4mM final), Mg2+ (5mM final), and formate (700+mM final) according to gSpreadsheet
+	* Excess factor should be ~1.3
+		* 1.1 is definitely not enough 141215 JM
+* Pipette autoinduced cells into 96-well plate
+	* Do at bench with flame and cheap non-filtered but sterile tips. 
+
+## -OR-Current recipe when NOT using a master mix:
 Current recipe as of 141220:
-* 2uL of autoinduced ACS cells
+* 4uL of autoinduced ACS cells
 * 2uL of 10X BugBuster (fairly arbitrary given the rxn volume is 40uL)
 * 3uL of NADH (3uL of 80mM in 40 uL --> 6mM)
 * 3uL of ATP/CoA/Mg2+ mix, which includes:
   * stock concentrations: 15.15 mM CoA, 75.72 mM MgCl2, 60.6mM ATP
   * final concentrations: 1mM CoA, 5mM MgCl2, 4mM ATP.  
-* __uL of purified NADH.  Want ~__uM for 2uL of autoinduced ACS cell extract. 
+* _X_uL of purified ADH.  Want ~7uM for 4uL of autoinduced ACS cell extract. 
 
 ## Make a stock right before prepping a plate:
 * Use a rinsed (DI water) or new pipette boat to mix in.  
@@ -66,8 +76,9 @@ Current recipe as of 141220:
 * First make *sure* the plate reader file is ready: 
   * Scan from ~350 to 500 nm, with 2 nm steps.  Scanning a whole plate this way takes ~10 minutes!
     * Can use less steps if it is a less important read. 
-  * 
 * Decide how long the reaction will be run.  Include this in the file name. 
+	* Assume 15 minutes for now.  
+		* 10 min not enough JM 150129
 * Start reaction by adding 40-x uL of the reaction cocktail that includes formate, ATP, CoA, Mg++, purified ADH, BugBuster, and make-up buffer. 
 * Put a cover on the plate to help prevent formaldehyde evaporation (this may not actually help; to be tested)
 
@@ -76,8 +87,11 @@ Current recipe as of 141220:
 * Move plate to 55oC or 61oC box for color development. 
 * Remove plate to scan spectrum.
 
-## If you want to plot the data, TCA precipitation is necessary
+## If you want to scan the plate to plot the data, TCA precipitation is necessary
 * This removes flecks of precipitated protein
+* Add 40uL to a 40uL rxn with 40uL Nash? 
+	* LOOK UP OLD DATA! 
+* Centrifugation is necessary to push down particulates. 
 
 ## Copy data into electronic spreadsheet/notebook
 * Export data from .pda to a text file. 
