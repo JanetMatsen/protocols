@@ -57,6 +57,7 @@ ear bin.  ATP is in a bigger bottle a few shelves up, and is shared with Amanda.
 * Make a master mix of ADH (7uM final), NADH (6mM final), CoA (1mM final), ATP (4mM final), Mg2+ (5mM final), and formate (700+mM final) according to gSpreadsheet
 	* Excess factor should be ~1.3
 		* 1.1 is definitely not enough 141215 JM
+		* 1.35x was too much 150130.  
 * Pipette autoinduced cells into 96-well plate
 	* Do at bench with flame and cheap non-filtered but sterile tips. 
 
