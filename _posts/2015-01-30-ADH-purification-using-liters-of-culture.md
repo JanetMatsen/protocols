@@ -5,25 +5,6 @@ category: protein
 ---
 
 
-Pour extra culture (beyond what fits into the ultra) into 50mL tubes and consider pooling it.
-
-Resuspend cells in ~20mL.  This will be ~40mL after you scrape the cell pellets in.  Scrape cell pellets into an 50mL tube using a scoop from the media room.  Don't try to resuspend bottle by bottle. Vortex after all the globs are in the falcon tube.  Don't want more than ~40mL total 
-
-French press: always start with water.  Make sure you screw in ball after taking out the plunger.  And make sure it is screwed in before adding liquid cultures.  ~50mL lead to some leaking out the top.  Try again with water next time? 
-
-Make sure there isn't blue stuff left in the column lid after binding.  Need to get that into the column if so! 
-
-Tape the 50mL tube rack to something heavy.  Def want to tape so I won't knock it over and break the column's glass! 
-
-General:
-Avoid getting the filter wet on the pipettor.
-
-solution | typical volumes | comments | amt to load in SDS-PAGE
----------------|-------------
-lysate | 20mL | Want to be able to vortex in a 50mL tube so try to keep final volume < 40mL by using < 20mL resuspension buffer | __uL of 20X diluted sample   
-washes | 10mL | washing strips some ADH off of column so don't wash excessively | 10uL
-elutions | 1.5mL - 4mL | chose smaller volumes if you want to get a few fractions with really high concentrations. | 8-16 uL*uM  
-
 ## Grow cultures
 * Day 1: Restreak -80oC stock onto an LB + Km plate
 	* Strain 78: pET29b ALD 3K9D from Amanda.  Pink tube.  Always check description on the side of the tube, and use an unopened streaking tip tube for -80oC stocks. 
@@ -60,15 +41,16 @@ elutions | 1.5mL - 4mL | chose smaller volumes if you want to get a few fraction
 * Spin for ~10min pretty fast.  7,500 RPM = max speed.   
 	* The centrifuge takes a while to slow down.
 * Switch rotor to the SS-34 rotor for future use
+* Pour extra culture (beyond what fits into the ultra) into 50mL tubes and consider pooling it.
+
 
 ## Collect cell pellets
 * Goal: scrape all the pellets into a falcon tube, which can be vortexed to resuspend the cells.
-	* Use a weighing scoop from the media room. 
+	* Use a weighing scoop from the media room.
+	* Don't try to resuspend bottle by bottle. Vortex after all the globs are in the falcon tube.  
 * Try using only 20mL of resuspension buffer (50mM PO4 buffer + 0.3M NaCl) because the final volume in the falcon tube should be <=45mL to have a chance at effective vortexing.
 * Use the buffer to rinse whatever cells are stuck to the tube after scraing. 
 * Vortex aggressively.  Ideally there will be no clumbs loaded into the french press cell. 
-* DNAse can be added to reduce viscosity downstream
-	* Currently we don't have any DNAse, but we do have some "lysonase" we can try. 
 
 ## French press in the large french press cell
 * French press parameters:
@@ -78,11 +60,15 @@ elutions | 1.5mL - 4mL | chose smaller volumes if you want to get a few fraction
 * Do a test run with cold (ideally sterile) water
 	* This ensures a final check that the seals are effective and lowers the stress level when processing the sample. 
 * French press the sample
+	* Use a new nylon bead in the valve that controls flow
+	* Make sure outlet flow is closed before loading sample.  (Otherwise it will leak onto the floor.)
 	* Load up to 30mL of the sample into the french press.  More might make it hard to get the plunger down enough to fit on the pressure stand. 
 	* Pressurize to 500 PSI
 	* Let the sample drip (ideally as few as a few drops per minute) into a Falcon tube
 	* Repeat with the other half of the ADH sample
 	* French press the samples agin.  
+* DNAse can be added to reduce viscosity downstream
+	* Currently we don't have any DNAse, but we do have some "lysonase" we can try. 
 
 ## Clairify lysates in the Sorvoll 
 * Move the lysates into 2 SS-34 bottles
@@ -91,6 +77,8 @@ elutions | 1.5mL - 4mL | chose smaller volumes if you want to get a few fraction
 	* This time has not been optimized yet.  
 
 ## Prepare resin
+* Find a way to hold the column up
+	* Tape the 50mL tube rack to something heavy.  Def want to tape so I won't knock it over and break the column's glass! 
 * If the resin is new:
 	* Load it into the blue column
 	* Rinse it with >3 column volumes of the lysis buffer.  Repeat. 
@@ -155,5 +143,13 @@ elutions | 1.5mL - 4mL | chose smaller volumes if you want to get a few fraction
 * [this spreadsheet](https://docs.google.com/spreadsheets/d/1oLDPxM6pbjul0TU0kZnZZwuXRpIY0xC7nsihhSPGGJ0/edit#gid=2074177923) will contain the parameters for all ADH batch purifications we do. 
 	* Was yield as is expected? 
 	* Is yield declining with resin re-use? 
-	* Is it time to test regeneration of resin by Adam's protocol? 
+	* Is it time to test regeneration of resin by Adam's protocol?
+
+## Run SDS-PAGE
+solution | typical volumes | comments | amt to load in SDS-PAGE
+---------------|-------------
+lysate | 20mL | Want to be able to vortex in a 50mL tube so try to keep final volume < 40mL by using < 20mL resuspension buffer | __uL of 20X diluted sample   
+washes | 10mL | washing strips some ADH off of column so don't wash excessively | 10uL
+elutions | 1.5mL - 4mL | chose smaller volumes if you want to get a few fractions with really high concentrations. | 8-16 uL*uM  
+ 
 
