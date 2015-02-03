@@ -150,7 +150,7 @@ Recommended volumes:
 
 solution | typical volumes | comments | amt to load in SDS-PAGE
 ---------------|-------------
-lysate | 20mL | Want to be able to vortex in a 50mL tube so try to keep final volume < 40mL by using < 20mL resuspension buffer | __uL of 20X diluted sample   
+lysate | 20mL | Want to be able to vortex in a 50mL tube so try to keep final volume < 40mL by using < 20mL resuspension buffer | ~4uL of 20X diluted sample   
 washes | 10mL | washing strips some ADH off of column so don't wash excessively | 10uL
 elutions | 1.5mL - 4mL | chose smaller volumes if you want to get a few fractions with really high concentrations. | 8-16 uL*uM  
  
