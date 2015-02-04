@@ -35,6 +35,7 @@ MES buffer     | MES (Sigma M2933) 20mM + 0.3M NaCl.  Can include sodium azide b
 		* ADD SUGAR MIX TO AUTOINDUCTION MEDIA. 40mL per liter of culture. 
 		* Resuspend the Kanamycin and syring filer (0.22uM pore size) it into the flasks
 		* Inoculate the flasks with ~10mL of overnight culture per liter of autoinduction media base
+
 ## Day before purification
 * Finalize purification plans
 	* Use [this spreadsheet](https://docs.google.com/spreadsheets/d/1oLDPxM6pbjul0TU0kZnZZwuXRpIY0xC7nsihhSPGGJ0/edit#gid=2074177923) as a guide.  All info should be entered in here upon completion. 
@@ -116,7 +117,7 @@ MES buffer     | MES (Sigma M2933) 20mM + 0.3M NaCl.  Can include sodium azide b
 * Allow the lyate to flow through the column.  
 	* Collect some of the flow-through for gel analysis.  Can keep it all if you think there is a chance you will capture more protein from the flow-through. 
 * Wash resin
-	* collect all the flow-through from each wash in a used tip tray.  Mix it up and save some for gel analysis after each wash is completed. 
+	* collect all the flow-through from each wash in a used tip tray.  Mix it up and save some for gel analysis after each wash is completed. (Don't want to catch only first or last drips through column; need to homogenize for gel)
 	* typically up to 20mM imidazole is used in the washes.  
 	* 10mM showed a lot of ADH washing of 150126
 	* Try washing with NaCl PO4 (no imidazole), PO4 without NaCl or imidazole, and finally 10mM imidazole PO4. 
