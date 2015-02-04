@@ -14,6 +14,7 @@ category: enzyme_assays
 ## Have ready:
 * Purified ADH.
 	* Takes a while to thaw from -80oC
+	* 150204 idea: move right amount to -20oC the previous night so it goes faster in the AM
 * Fully grown-out autoinduced ACS enzyme variants with controls present on the plate.
   * Include a diagonal stripe of the + control ACS L641P, and some P641L and K609A controls elsewhere 
   * Was selective antibiotic included? 
@@ -112,15 +113,6 @@ Current recipe as of 141220:
 ## Archive cells
 * Record in lab notebook
 * Restreak on an LB plate with the appropriate antibiotic.  
-  * Store up to 5 strains on a plate. 
-* 
-
-
-<div class="message">
-Screening enzymes is so cool!
-</div>
-
-* Image test:
-![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
-
-
+	* Are you restreaking for single colonies or just putting blobs on agarose? 
+	* For single colonies, store up to 5 strains on a plate. 
+	* Can squeeze 20+ on a plate if you just want blobs. 
