@@ -5,6 +5,7 @@ category: protein
 ---
 
 ## Buffer Summary
+
 solution       |composition                         | uses
 ---------------|------------------------------------|-------------
 "basic" PO4    | 50mM NaCl PO4, ~pH 7.4		    | used to make most buffers, can be used to wash resin
