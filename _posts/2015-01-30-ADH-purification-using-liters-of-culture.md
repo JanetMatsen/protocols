@@ -4,6 +4,19 @@ title: ADH purification using liters of culture
 category: protein
 ---
 
+## Buffer Summary
+solution       |composition                         | uses
+---------------|------------------------------------|-------------
+"basic" PO4    | 50mM NaCl PO4, ~pH 7.4		    | used to make most buffers, can be used to wash resin
+PO4 + NaCl     |  50mM NaCl PO4, ~pH 7.4 + 0.3M NaCl| lysis, potentially 1st wash
+salty wash     | "PO4 + NaCl" buffer + 10mM imidazole | wash resin
+UNsalty wash   | "basic PO4" buffer + 10mM imidazole| wash resin
+elution buffer |"basic PO4" buffer + 200mM imidazole| elute washed protein from resin
+MES buffer     | MES (Sigma M2933) 20mM + 0.3M NaCl.  Can include sodium azide but doesn't for now* |washing resin
+20% EtOH, unbuffered | 20% (v/v) ethanol in water | storing H2O and MES washed resin 
+
+\* sodium azide can prevent "critters" from growing on stored resin, but is explosive and toxic.  The lethal dose for an adult human is only ~ 0.7 grams!  Adam W. from the Baker lab omits it from his buffer.  The 20% ethanol should be an effective inhibitor for short term storage. 
+
 
 ## Grow cultures
 * Day 1: Restreak -80oC stock onto an LB + Km plate
@@ -19,7 +32,7 @@ category: protein
 * Day 3: Inoculate big flasks
 	* Finish preparing autoinduction media:
 		* ADD SUGAR MIX TO AUTOINDUCTION MEDIA. 40mL per liter of culture. 
-		* Resuspend the Kanamycin and syring filer it into the flasks
+		* Resuspend the Kanamycin and syring filer (0.22uM pore size) it into the flasks
 		* Inoculate the flasks with ~10mL of overnight culture per liter of autoinduction media base
 ## Day before purification
 * Finalize purification plans
@@ -89,6 +102,8 @@ category: protein
 ## Load clairified lysate onto resin
 * Put cap on the outlet of the column to stop flow.
 * Filter resin through a 5uM filter if you see chunks when you pipette the clarified lysate up from the SS-34 centrifuge bottles
+	* 150126: I used a Millex-SV filter (info taped to pg 575) and it was very hard to push through the syringe.  I had the aparatus on the floor and was using my body weight.  Adam uses something a little bit wider on a sample treated with DNAse and has no flow problems. 
+	* 150204: looking for wider diameter filters, but found none.  Asked VWR rep.  These filters are a few dollars each, so it might be cheaper to just add DNAse.  And then the flow-through step would happen much faster too. 
 * Add the supernatant to the resin. 
 * Put the caps on the top to prevent leaking
 * Move the assembly to the fridge room and rock the resin for up to 30 minutes to bind the His-tagged protein
