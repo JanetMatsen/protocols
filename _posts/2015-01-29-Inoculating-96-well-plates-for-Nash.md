@@ -26,6 +26,7 @@ category: enzyme_assays
 ## Bring to the sterile hood: 
 * A printout of the exact pattern you plan to inoculate the plate with
 * 96-well deep blocks
+* reverse tweezers
 * scissors
 * multihannel 1mL pipette
 * autoclaved toothpicks
@@ -38,8 +39,11 @@ category: enzyme_assays
 * ethanol
 
 ## First steps
+* (optional) put everything except bacteria (and media?) in the UV hood and sterilize it by applying UV light
+	* bacteria shouldn't be put under UV light.  I believe UV light penetrates the plastic we use
+	* antibiotics in media might not withstand the UV light, so lets avoid exposing it. 
 * Label the plate with the date of inoculation and the plate number if multiple are being created
-** Use the H-row side of the block.  Consistency will reduce errors.
+	* Use the H-row side of the block.  Consistency will reduce errors.
 * Label A-H on the right side of the block  
 
 ## Inoculate controls
