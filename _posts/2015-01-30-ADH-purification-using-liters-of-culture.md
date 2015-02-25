@@ -38,7 +38,8 @@ MES buffer     | MES (Sigma M2933) 20mM + 0.3M NaCl.  Can include sodium azide b
 
 ## Day before purification
 * Finalize purification plans
-	* Use [this spreadsheet](https://docs.google.com/spreadsheets/d/1oLDPxM6pbjul0TU0kZnZZwuXRpIY0xC7nsihhSPGGJ0/edit#gid=2074177923) as a guide.  All info should be entered in here upon completion. 
+	* Use [this spreadsheet](https://docs.google.com/spreadsheets/d/1oLDPxM6pbjul0TU0kZnZZwuXRpIY0xC7nsihhSPGGJ0/edit#gid=2074177923) as a guide.  All info should be entered in here upon completion.
+		* Use A280 --> uM conversions found here: https://docs.google.com/spreadsheets/d/1wMYTvu2YntoR3f-yfBMaQvffDbppOh3cMIEnPt8FHBY/edit#gid=0 
 	* Previously used or new resin? 
 	* Include controls like new resin done in parallel? 
 * Prepare the large french press cell
