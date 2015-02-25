@@ -11,8 +11,7 @@ category: protein
   * Tubes to collect flow-through, washes (when rarely desired)
 * Prepare gDoc spreadsheet:
   * A280 calculations: sample names, MW (molecular weight), A280 for 1g/mL, uL resin, mL culture, culture identifying number
-  * Use A280 --> uM conversions found here: https://docs.google.com/spreadsheets/d/1wMYTvu2YntoR3f-yfBMaQvffDbppOh3cMIEnPt8FHBY/edit#gid=0
-
+  * Use A280 --> uM conversions found here: [A280 --> uM conversion numbers](https://docs.google.com/spreadsheets/d/1wMYTvu2YntoR3f-yfBMaQvffDbppOh3cMIEnPt8FHBY/edit#gid=0).
 ## Grow cells
 * decide between pET and pTrc.  Decide host strain.
 * decide source of overnight cultures
