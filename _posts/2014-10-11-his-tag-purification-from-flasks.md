@@ -126,6 +126,7 @@ category: protein
 * Check NanoDrop A280 of eluted samples as subsequent elutions occur
 
 ## Determine the concentration using NanoDrop A280
+* Use A280 --> uM conversions found here: [A280 --> uM conversion numbers](https://docs.google.com/spreadsheets/d/1wMYTvu2YntoR3f-yfBMaQvffDbppOh3cMIEnPt8FHBY/edit#gid=0).
 * Background:
   * imidazole also absorba somewhat at 280nm, so it is important to subtract this background signal off.
 * Blank with H2O, as always
