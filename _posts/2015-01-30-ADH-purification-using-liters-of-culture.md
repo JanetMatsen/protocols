@@ -116,6 +116,8 @@ MES buffer     | MES (Sigma M2933) 20mM + 0.3M NaCl.  Can include sodium azide b
 	* Make sure the resin is being sloshed and doesn't sit in one end of the column. 
 
 ## Wash loaded resin
+* 2015/2 update: **10mM imidazole strips off ADH 3K9D significantly**.  Only do one wash at this concentration.  Test 5mM imidazole next.
+	* [experiment notes](https://docs.google.com/document/d/17OYVWsVnC6aX0Kxfoia7YyDMZiUqvZTHGkiAZ90MAuQ/edit?usp=sharing) & [spreadsheet](https://docs.google.com/spreadsheets/d/1-z3U3QN12Qyb0_aAMQLHAI_rHCZkWilnr8UYWF22tAw/edit?usp=sharing) (note: they are embedded in another experiment!)
 * Retreive column from cold room rocker.
 * Take off the top cap and make sure there isn't resin stuck up there
 * Allow the lyate to flow through the column.  
@@ -139,8 +141,9 @@ MES buffer     | MES (Sigma M2933) 20mM + 0.3M NaCl.  Can include sodium azide b
 * Enter A280 values into [this spreadsheet](https://docs.google.com/spreadsheets/d/1oLDPxM6pbjul0TU0kZnZZwuXRpIY0xC7nsihhSPGGJ0/edit#gid=2074177923). 
 
 ## Clean resin for re-use
-* 2015/2 update: **10mM imidazole strips off ADH 3K9D significantly**.  Only do one wash at this concentration.  Test 5mM imidazole next.
-	* [experiment notes](https://docs.google.com/document/d/17OYVWsVnC6aX0Kxfoia7YyDMZiUqvZTHGkiAZ90MAuQ/edit?usp=sharing) & [spreadsheet](https://docs.google.com/spreadsheets/d/1-z3U3QN12Qyb0_aAMQLHAI_rHCZkWilnr8UYWF22tAw/edit?usp=sharing) (note: they are embedded in another experiment!)
+* Note: 2015/2 this worked well.  Re-used buffer worked great.
+	* notes: [experiment notes](https://docs.google.com/document/d/17OYVWsVnC6aX0Kxfoia7YyDMZiUqvZTHGkiAZ90MAuQ/edit?usp=sharing) & [spreadsheet](https://docs.google.com/spreadsheets/d/1-z3U3QN12Qyb0_aAMQLHAI_rHCZkWilnr8UYWF22tAw/edit?usp=sharing) (note: they are embedded in another experiment!)
+
 * Rinse the column with the MES NaCl buffer.  Use a few column volumes.
 	* Save some of this for SDS-PAGE
 * Rinse resin with a whole column of water.  Repeat.
