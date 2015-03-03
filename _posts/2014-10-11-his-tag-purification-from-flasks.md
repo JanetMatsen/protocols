@@ -12,6 +12,10 @@ category: protein
 * Prepare gDoc spreadsheet:
   * A280 calculations: sample names, MW (molecular weight), A280 for 1g/mL, uL resin, mL culture, culture identifying number
   * Use A280 --> uM conversions found here: [A280 --> uM conversion numbers](https://docs.google.com/spreadsheets/d/1wMYTvu2YntoR3f-yfBMaQvffDbppOh3cMIEnPt8FHBY/edit#gid=0).
+* **Decide amount of resin to use**
+  * See below.     
+
+
 
 ## Grow cells
 * decide between pET and pTrc.  Decide host strain.
@@ -83,6 +87,10 @@ category: protein
   * Don't let the resin "dry out".  It takes many minutes to "dry out" under gravity flow conditions, but pulling air through with a pipette tip or the pig leads to "drying out".  Drying it may be bad for the resin and is likely bad for protein stability
   * "resin" == small beads. They can be pipetted w/ 1mL pipette tips but cutting the opening larger is helpful.  Definitely cut the pipette tip hole larger when using a p200uL tip.
   * The resin comes as a slurry that is 50% buffer, 50% beads.  The beads settle out quickly, so vortex the slurry each time between pipetting.  We don't want the composition of the solution to drift too far from 50%.
+  * **Use a 1mL pipette with the tip cut off so the clunky beads don't get stuck.**  
+* **Decide amount of resin to use**
+  * 2015/2/25 purifications showed that 400mL of autoinduced pET ADH 3K9D failed to saturate 400uL of resin (800uL of slurry).  The NanoDrop OD600 was 0.4 at harvest. [experiment notes](https://docs.google.com/document/d/17OYVWsVnC6aX0Kxfoia7YyDMZiUqvZTHGkiAZ90MAuQ/edit?usp=sharing) & [spreadsheet](https://docs.google.com/spreadsheets/d/1-z3U3QN12Qyb0_aAMQLHAI_rHCZkWilnr8UYWF22tAw/edit?usp=sharing) (note: they are embedded in another experiment!)
+  * ** Add notes about ACS L641P and WT purification based on this experiment! **
 * Chose a column size
   * the lysate volume is the most important parameter.  If in doubt, chose the [largest ones] (http://www.bio-rad.com/en-us/product/poly-prep-chromatography-columns?pcp_loc=catprod).  The volume of lysate is the most relevant parameter to column size, because the resin volume is small relative to the lysate.
 * chose a method of holding up the column
@@ -115,6 +123,7 @@ category: protein
   * In JM's previous experiments, the wash buffer does strip of some of the desired protein, so washing too aggressively can also be bad.
   * Until 10/2014 all purifications had been done with gravity flow.  It is possible that the accelerated speed at which "the pig" pulls solution through is too fast for equilibration.  It may be desirable to swirl wash solution around the resin in "the pig" case.  Just record the strategy used.
 * Wash twice with salty wash buffer, then twice with un-salty wash buffer.
+  * 2015/2 update: **10mM imidazole strips off ADH 3K9D significantly**.  Only do one wash at this concentration.  Test 5mM imidazole next. 
   * Make tally marks to record each, especially if you are washing columns at different times making it difficult to recall how many each has been washed.
   * Use ~1mL each wash.
 
@@ -134,6 +143,9 @@ category: protein
 * Measure the A280 of recently vortexed eluted protein.  Do at least 5 meausrements/sample.  Minimum volume is ~2.5uL.  Dab pedistol between measurements.
 * SAVE FILE.  Definitely at the end, but ideally every ~10-20 measurements
 * Take note of any samples that were measured with the wrong sample label, so they can be corrected.
+
+## Regenerate resin ##
+* **Whatever I did the first time worked.  Look it up and repeat.**
 
 ## Do a happy dance
 You are finished!

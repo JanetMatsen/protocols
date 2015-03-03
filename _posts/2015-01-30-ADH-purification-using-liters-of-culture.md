@@ -93,6 +93,9 @@ MES buffer     | MES (Sigma M2933) 20mM + 0.3M NaCl.  Can include sodium azide b
 	* This time has not been optimized yet.  
 
 ## Prepare resin
+* Amount to purify:
+	* This is still being tuned. 
+	* **Add notes from 1st round**
 * Find a way to hold the column up
 	* Tape the 50mL tube rack to something heavy.  Def want to tape so I won't knock it over and break the column's glass! 
 * If the resin is new:
@@ -117,7 +120,7 @@ MES buffer     | MES (Sigma M2933) 20mM + 0.3M NaCl.  Can include sodium azide b
 * Take off the top cap and make sure there isn't resin stuck up there
 * Allow the lyate to flow through the column.  
 	* Collect some of the flow-through for gel analysis.  Can keep it all if you think there is a chance you will capture more protein from the flow-through. 
-* Wash resin
+* Wash bound resin
 	* collect all the flow-through from each wash in a used tip tray.  Mix it up and save some for gel analysis after each wash is completed. (Don't want to catch only first or last drips through column; need to homogenize for gel)
 	* typically up to 20mM imidazole is used in the washes.  
 	* 10mM showed a lot of ADH washing of 150126
@@ -136,10 +139,14 @@ MES buffer     | MES (Sigma M2933) 20mM + 0.3M NaCl.  Can include sodium azide b
 * Enter A280 values into [this spreadsheet](https://docs.google.com/spreadsheets/d/1oLDPxM6pbjul0TU0kZnZZwuXRpIY0xC7nsihhSPGGJ0/edit#gid=2074177923). 
 
 ## Clean resin for re-use
+* 2015/2 update: **10mM imidazole strips off ADH 3K9D significantly**.  Only do one wash at this concentration.  Test 5mM imidazole next.
+	* [experiment notes](https://docs.google.com/document/d/17OYVWsVnC6aX0Kxfoia7YyDMZiUqvZTHGkiAZ90MAuQ/edit?usp=sharing) & [spreadsheet](https://docs.google.com/spreadsheets/d/1-z3U3QN12Qyb0_aAMQLHAI_rHCZkWilnr8UYWF22tAw/edit?usp=sharing) (note: they are embedded in another experiment!)
 * Rinse the column with the MES NaCl buffer.  Use a few column volumes.
 	* Save some of this for SDS-PAGE
 * Rinse resin with a whole column of water.  Repeat.
 	* consider saving some of these washes for SDS-PAGE
+* Store in __% EtOH, __% DI water
+	* Note: some protocols use sodium azide to prevent microbial growth.  Sodium azide is toxic and the Baker Lab (specifically Adam W.) doesn't use it so we aren't either. 
 
 ## Pool desirable elutions
 * Decide what uM you want the final mix to be before pooling.
