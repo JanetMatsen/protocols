@@ -96,6 +96,7 @@ MES buffer     | MES (Sigma M2933) 20mM + 0.3M NaCl.  Can include sodium azide b
 * Amount to purify:
 	* This is still being tuned. 
 	* **Add notes from 1st round**
+	* 3L of autoinduced culture that was french pressed 2x failed to saturate 3mL of unused resin (6mL of slurry) 1/26/2015 JM 
 * Find a way to hold the column up
 	* Tape the 50mL tube rack to something heavy.  Def want to tape so I won't knock it over and break the column's glass! 
 * If the resin is new:
