@@ -98,6 +98,7 @@ Current recipe as of 141220:
 * Remove plate to scan spectrum.
 
 ## If you want to scan the plate to plot the data, TCA precipitation is necessary
+* **See safety notes below**
 * This removes flecks of precipitated protein
 * Add 40uL to a 40uL rxn with 40uL Nash? 
 	* LOOK UP OLD DATA! 
@@ -121,3 +122,19 @@ Current recipe as of 141220:
 	* Are you restreaking for single colonies or just putting blobs on agarose? 
 	* For single colonies, store up to 5 strains on a plate. 
 	* Can squeeze 20+ on a plate if you just want blobs. 
+
+## Deposit summary here:
+* (2015 Nash ACS assay screening records summary](https://docs.google.com/spreadsheets/d/1LfRP2Cc1TUjtHdHLKXzJmNh5pnyUYxsQ0h3w_pG4NQI/edit?usp=sharing): A spreadsheet that summarises our library screening efforts. 
+*  Add any investigations done here: [2014_10_31 Nash Assay tests for HTS - SUMMARY of findings](https://docs.google.com/document/d/1jzvRbE3xuGehs7rV7GfHlY1QQp6DXSYDmVM4dGbo5B4/edit?usp=sharing)
+	* Mostly about whole-cell scans, but if you do tests such as the ratio of ACS:ADH required, record it. 
+
+## Trichloroacetic Acid Safety ##
+* **Trichloroacetic acid is a strong acid that will burn your skin and eyes very badly.**
+	* In 2/2015 Janet got a tiny bit (smaller than a "drop") on her arm and it left a brown spot where it burned.  
+* Proper handling:
+	* gloves are mandatory
+	* goggles and a lab coat are encouraged. 
+	* do not wear shoes that fail to protect your feet (e.g. mary jane shoes or sandals) 
+* If you do get some on you, wash it off immediately.
+	* It probably won't cause cancer, but will definitely leave a mark. 
+* See the [EPA notes[(http://www.epa.gov/iris/toxreviews/0655tr.pdf) about toxicology to better understand the health hazards. 
