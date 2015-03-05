@@ -45,4 +45,7 @@ purified protein | ~40ng | So minimum concentration is ~5ng/uL. If stock is  Goo
 
 ## Wash & Stain gel
 * Wash SDS (soap) out of the gel by taking it out of the plates, and putting it in a tupperware of fresh DI water.  
-  * Let stand ~10 min for equilibrium.  Repeat 3 times.  Insufficient washing --> whole gel stains & you can't see where the bands are.  
+  * Let stand ~10 min for equilibrium.  Repeat 3 times.  Insufficient washing --> whole gel stains & you can't see where the bands are. 
+
+## Deposit gel images to archive
+* [2015 SDS-PAGE archive - Protein Purifications](https://docs.google.com/document/d/1I9xvb7WwAv4btEJM00hS3RkJfiWSESyACu6yhzmHhf8/edit)

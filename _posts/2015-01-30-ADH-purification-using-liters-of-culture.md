@@ -181,5 +181,9 @@ solution | typical volumes | comments | amt to load in SDS-PAGE
 lysate | 20mL | Want to be able to vortex in a 50mL tube so try to keep final volume < 40mL by using < 20mL resuspension buffer | ~4uL of 20X diluted sample   
 washes | 10mL | washing strips some ADH off of column so don't wash excessively | 10uL
 elutions | 1.5mL - 4mL | chose smaller volumes if you want to get a few fractions with really high concentrations. | 8-16 uL*uM  
- 
+
+## Deposit results in the archive:
+* [2015 ADH megabatch purification records](https://docs.google.com/spreadsheets/d/1oLDPxM6pbjul0TU0kZnZZwuXRpIY0xC7nsihhSPGGJ0/edit?usp=sharing) 
+* [2015 SDS-PAGE archive - Protein Purifications](https://docs.google.com/document/d/1I9xvb7WwAv4btEJM00hS3RkJfiWSESyACu6yhzmHhf8/edit) 
+
 
