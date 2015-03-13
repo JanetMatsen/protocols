@@ -4,37 +4,22 @@ title: ADH purification using liters of culture
 category: protein
 ---
 
-## Buffer Summary
-
-solution       |composition                         | uses
----------------|------------------------------------|-------------
-"basic" PO4    | 50mM NaCl PO4, ~pH 7.4		    | used to make most buffers, can be used to wash resin
-PO4 + NaCl     |  50mM NaCl PO4, ~pH 7.4 + 0.3M NaCl| lysis, potentially 1st wash
-salty wash     | "PO4 + NaCl" buffer + 10mM imidazole | wash resin
-UNsalty wash   | "basic PO4" buffer + 10mM imidazole| wash resin
-elution buffer |"basic PO4" buffer + 200mM imidazole| elute washed protein from resin
-MES buffer     | MES (Sigma M2933) 20mM + 0.3M NaCl.  Can include sodium azide but doesn't for now* |washing resin
-20% EtOH, unbuffered | 20% (v/v) ethanol in water | storing H2O and MES washed resin 
-
-\* sodium azide can prevent "critters" from growing on stored resin, but is explosive and toxic.  The lethal dose for an adult human is only ~ 0.7 grams!  Adam W. from the Baker lab omits it from his buffer.  The 20% ethanol should be an effective inhibitor for short term storage. 
-
 
 ## Grow cultures
 * Day 1: Restreak -80oC stock onto an LB + Km plate
 	* Strain 78: pET29b ALD 3K9D from Amanda.  Pink tube.  Always check description on the side of the tube, and use an unopened streaking tip tube for -80oC stocks. 
 		* [-80oC stock spreadsheet](https://docs.google.com/spreadsheet/ccc?key=0AlVxrZi130nMdHlsaml2OGFDUW9zRlVBdkRKaXVEbkE#gid=11)
-
 * Day 2: Prepare inoculum and liters of autoinduction media
 	* Inoculate 1-5 colonies into an overnight flask with LB + Km 
 	* Prepare autoinduction media: [recipe](https://docs.google.com/spreadsheets/d/1EM-sfk65Xf5F3q3316Yw_b5y0U5GasYQLF6Ug5sa7Y8/edit#gid=0)
 		* Weigh ingredients into 2.8L flasks, add millipore DI H2O, cover with foil and autoclave tape, and autoclave. 
 	* Weigh out Km to be dissolved and filter sterilized directly into flasks. 
-		* 100mg per L of culture
+		* 100mg per L of culture. Use 2mL/100mg weighed.  Make a little bit of excess(didn't have enough 3/10/2015). 
 * Day 3: Inoculate big flasks
 	* Finish preparing autoinduction media:
-		* ADD SUGAR MIX TO AUTOINDUCTION MEDIA. 40mL per liter of culture. 
+		* ADD SUGAR MIX TO AUTOINDUCTION MEDIA. 40mL per liter of culture. so 60mL/flask. 
 		* Resuspend the Kanamycin and syring filer (0.22uM pore size) it into the flasks
-		* Inoculate the flasks with ~10mL of overnight culture per liter of autoinduction media base
+		* Inoculate the flasks with ~15mL of overnight culture per liter of autoinduction media base.  (1/100 dilution)
 
 ## Day before purification
 * Finalize purification plans
@@ -53,6 +38,7 @@ MES buffer     | MES (Sigma M2933) 20mM + 0.3M NaCl.  Can include sodium azide b
 	* Pepare a tube for the water wash(es) and MES buffer wash(es)
 
 ## Centrifuge in the Sorvoll floor centrifuge
+* Before spinning down everything, measure OD600 and take off a little aliquot for SDS-PAGE analysis/troubleshooting. 
 * Use the larger GS-3 rotor that holds 0.5L bottles. 
 * Spin for ~10min pretty fast.  7,500 RPM = max speed.   
 	* The centrifuge takes a while to slow down.
@@ -78,10 +64,11 @@ MES buffer     | MES (Sigma M2933) 20mM + 0.3M NaCl.  Can include sodium azide b
 * French press the sample
 	* Use a new nylon bead in the valve that controls flow
 	* Make sure outlet flow is closed before loading sample.  (Otherwise it will leak onto the floor.)
-	* Load up to 30mL of the sample into the french press.  More might make it hard to get the plunger down enough to fit on the pressure stand. 
+	* Load up to 45mL of the sample into the french press.  More might make it hard to get the plunger down enough to fit on the pressure stand. 
+		* If doing 45mL, the cell must be loaded upside down (piston in, bottom cap off). This requires substantial strength; we could have a stand made. 
 	* Pressurize to 500 PSI
 	* Let the sample drip (ideally as few as a few drops per minute) into a Falcon tube
-	* Repeat with the other half of the ADH sample
+<!---	* Repeat with the other half of the ADH sample -->
 	* French press the samples agin.  
 * DNAse can be added to reduce viscosity downstream
 	* Currently we don't have any DNAse, but we do have some "lysonase" we can try. 
@@ -133,6 +120,7 @@ MES buffer     | MES (Sigma M2933) 20mM + 0.3M NaCl.  Can include sodium azide b
 * Use 200mM imidazole to elute the protein
 	* Can add 1.5 - 4mL at a time, depending on goals.
 	* First 1.5mL had <10mM ADH in 150126 purification. 
+	* Got 2 high-yield 3mL batches 150310
 * Put eluted fractions on ice. 
 
 ## Quantify uMs via NanoDrop A280 readings
@@ -146,10 +134,11 @@ MES buffer     | MES (Sigma M2933) 20mM + 0.3M NaCl.  Can include sodium azide b
 	* notes: [experiment notes](https://docs.google.com/document/d/17OYVWsVnC6aX0Kxfoia7YyDMZiUqvZTHGkiAZ90MAuQ/edit?usp=sharing) & [spreadsheet](https://docs.google.com/spreadsheets/d/1-z3U3QN12Qyb0_aAMQLHAI_rHCZkWilnr8UYWF22tAw/edit?usp=sharing) (note: they are embedded in another experiment!)
 
 * Rinse the column with the MES NaCl buffer.  Use a few column volumes.
+	* Use 14mL so you can drip it into a Falcon tube, vortex, and sample for SDS-PAGE. 
 	* Save some of this for SDS-PAGE
 * Rinse resin with a whole column of water.  Repeat.
 	* consider saving some of these washes for SDS-PAGE
-* Store in __% EtOH, __% DI water
+* Store in 20% EtOH, 80% DI water
 	* Note: some protocols use sodium azide to prevent microbial growth.  Sodium azide is toxic and the Baker Lab (specifically Adam W.) doesn't use it so we aren't either. 
 
 ## Pool desirable elutions
@@ -186,5 +175,20 @@ elutions | 1.5mL - 4mL | chose smaller volumes if you want to get a few fraction
 ## Deposit results in the archive:
 * [2015 ADH megabatch purification records](https://docs.google.com/spreadsheets/d/1oLDPxM6pbjul0TU0kZnZZwuXRpIY0xC7nsihhSPGGJ0/edit?usp=sharing) 
 * [2015 SDS-PAGE archive - Protein Purifications](https://docs.google.com/document/d/1I9xvb7WwAv4btEJM00hS3RkJfiWSESyACu6yhzmHhf8/edit) 
+
+## Buffer Summary
+
+solution       |composition                         | uses
+---------------|------------------------------------|-------------
+"basic" PO4    | 50mM NaCl PO4, ~pH 7.4		    | used to make most buffers, can be used to wash resin
+PO4 + NaCl     |  50mM NaCl PO4, ~pH 7.4 + 0.3M NaCl| lysis, potentially 1st wash
+salty wash     | "PO4 + NaCl" buffer + 10mM imidazole | wash resin
+UNsalty wash   | "basic PO4" buffer + 10mM imidazole| wash resin
+elution buffer |"basic PO4" buffer + 200mM imidazole| elute washed protein from resin
+MES buffer     | MES (Sigma M2933) 20mM + 0.3M NaCl.  Can include sodium azide but doesn't for now* |washing resin
+20% EtOH, unbuffered | 20% (v/v) ethanol in water | storing H2O and MES washed resin 
+
+\* sodium azide can prevent "critters" from growing on stored resin, but is explosive and toxic.  The lethal dose for an adult human is only ~ 0.7 grams!  Adam W. from the Baker lab omits it from his buffer.  The 20% ethanol should be an effective inhibitor for short term storage. 
+
 
 
