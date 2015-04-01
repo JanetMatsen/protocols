@@ -9,16 +9,19 @@ category: protein
 * Day 1: Restreak -80oC stock onto an LB + Km plate
 	* Strain 78: pET29b ALD 3K9D from Amanda.  Pink tube.  Always check description on the side of the tube, and use an unopened streaking tip tube for -80oC stocks. 
 		* [-80oC stock spreadsheet](https://docs.google.com/spreadsheet/ccc?key=0AlVxrZi130nMdHlsaml2OGFDUW9zRlVBdkRKaXVEbkE#gid=11)
+	* consider using a [non-inducing media](http://openwetware.org/wiki/Lidstrom:Autoinduction_Media) to prevent cells from getting sick and dropping plasmid. 
 * Day 2: Prepare inoculum and liters of autoinduction media
 	* Inoculate 1-5 colonies into an overnight flask with LB + Km 
 	* Prepare autoinduction media: [recipe](https://docs.google.com/spreadsheets/d/1EM-sfk65Xf5F3q3316Yw_b5y0U5GasYQLF6Ug5sa7Y8/edit#gid=0)
 		* Weigh ingredients into 2.8L flasks, add millipore DI H2O, cover with foil and autoclave tape, and autoclave. 
+		* Consider adding more glycerol to get higher OD before induction begins. 
+			* add more glycerol to one flask if doing 2 flasks of protein?  Until I figure out strategy
 	* Weigh out Km to be dissolved and filter sterilized directly into flasks. 
 		* 100mg per L of culture. Use 2mL/100mg weighed.  Make a little bit of excess(didn't have enough 3/10/2015). 
 * Day 3: Inoculate big flasks
 	* Finish preparing autoinduction media:
 		* ADD SUGAR MIX TO AUTOINDUCTION MEDIA. 40mL per liter of culture. so 60mL/flask. 
-		* Resuspend the Kanamycin and syring filer (0.22uM pore size) it into the flasks
+		* Resuspend the Kanamycin and syringe filer (0.22uM pore size) it into the flasks
 		* Inoculate the flasks with ~15mL of overnight culture per liter of autoinduction media base.  (1/100 dilution)
 
 ## Day before purification
@@ -35,11 +38,14 @@ category: protein
 * Prepare tubes: 
 	* Prepare tubes for saving aliquots of the lysate, flow-through, and washes. 
 	* Prepare tubes for the elutions
-	* Pepare a tube for the water wash(es) and MES buffer wash(es)
+	* Prepare a tube for the water wash(es) and MES buffer wash(es)
+* Make sure there are enough clean GS-3 and SS-34 centrifuge tubes.
 
 ## Centrifuge in the Sorvoll floor centrifuge
-* Before spinning down everything, measure OD600 and take off a little aliquot for SDS-PAGE analysis/troubleshooting. 
+* Before spinning down everything, measure OD600 and take off a little aliquot for SDS-PAGE analysis/troubleshooting.
+* Consider moving 50mL of the culture to a new flask & see if the OD continues to go up.  (If it does, the cultures may not be fully induced.) 
 * Use the larger GS-3 rotor that holds 0.5L bottles. 
+** Don't over-fill the bottles.  If the GS-3 bottles lack rubber seals in the lid the liquid will spill out when you tilt them sideways and spin them fast.  This water accumulates in the bottom of the centrifuge (not the rotor) and needs to be wiped up because it is corrosive. 
 * Spin for ~10min pretty fast.  7,500 RPM = max speed.   
 	* The centrifuge takes a while to slow down.
 * Switch rotor to the SS-34 rotor for future use
@@ -51,8 +57,12 @@ category: protein
 	* Use a weighing scoop from the media room.
 	* Don't try to resuspend bottle by bottle. Vortex after all the globs are in the falcon tube.  
 * Try using only 20mL of resuspension buffer (50mM PO4 buffer + 0.3M NaCl) because the final volume in the falcon tube should be <=45mL to have a chance at effective vortexing.
-* Use the buffer to rinse whatever cells are stuck to the tube after scraing. 
-* Vortex aggressively.  Ideally there will be no clumbs loaded into the french press cell. 
+	* Ideally you can fit the whole lysate in one large french press volume.  Keep under 20mL final volume?  I'm not sure what concentration limits solubility of normally soluble enzymes.  
+* Use the buffer to rinse whatever cells are stuck to the tube after scraping. 
+* Vortex aggressively.  Ideally there will be no clumps loaded into the french press cell.
+* Add DNAse. 
+	* This will lower the viscosity of the lysate, which helps both centrifugation and flowing through the column after the resin is loaded. 
+	* Amount to add is still unknown.   
 
 ## French press in the large french press cell
 * French press parameters:
@@ -62,22 +72,22 @@ category: protein
 * Do a test run with cold (ideally sterile) water
 	* This ensures a final check that the seals are effective and lowers the stress level when processing the sample. 
 * French press the sample
-	* Use a new nylon bead in the valve that controls flow
+	* Use a new nylon bead in the valve that controls flow rate
 	* Make sure outlet flow is closed before loading sample.  (Otherwise it will leak onto the floor.)
 	* Load up to 45mL of the sample into the french press.  More might make it hard to get the plunger down enough to fit on the pressure stand. 
 		* If doing 45mL, the cell must be loaded upside down (piston in, bottom cap off). This requires substantial strength; we could have a stand made. 
 	* Pressurize to 500 PSI
 	* Let the sample drip (ideally as few as a few drops per minute) into a Falcon tube
 <!---	* Repeat with the other half of the ADH sample -->
-	* French press the samples agin.  
+	* French press the samples again.  
 * DNAse can be added to reduce viscosity downstream
 	* Currently we don't have any DNAse, but we do have some "lysonase" we can try. 
 
-## Clairify lysates in the Sorvoll 
+## Clarify lysates in the Sorvoll 
 * Move the lysates into 2 SS-34 bottles
 	* Balance by eyeball. 
 * Centrifuge for 20+ minutes
-	* This time has not been optimized yet.  
+	* This time has not been optimized yet. Less time should be fine.  
 
 ## Prepare resin
 * Amount to purify:
@@ -96,7 +106,7 @@ category: protein
 ## Load clairified lysate onto resin
 * Put cap on the outlet of the column to stop flow.
 * Filter resin through a 5uM filter if you see chunks when you pipette the clarified lysate up from the SS-34 centrifuge bottles
-	* 150126: I used a Millex-SV filter (info taped to pg 575) and it was very hard to push through the syringe.  I had the aparatus on the floor and was using my body weight.  Adam uses something a little bit wider on a sample treated with DNAse and has no flow problems. 
+	* 150126: I used a Millex-SV filter (info taped to pg 575) and it was very hard to push through the syringe.  I had the apparatus on the floor and was using my body weight.  Adam uses something a little bit wider on a sample treated with DNAse and has no flow problems. 
 	* 150204: looking for wider diameter filters, but found none.  Asked VWR rep.  These filters are a few dollars each, so it might be cheaper to just add DNAse.  And then the flow-through step would happen much faster too. 
 * Add the supernatant to the resin. 
 * Put the caps on the top to prevent leaking
@@ -110,11 +120,13 @@ category: protein
 * Take off the top cap and make sure there isn't resin stuck up there
 * Allow the lyate to flow through the column.  
 	* Collect some of the flow-through for gel analysis.  Can keep it all if you think there is a chance you will capture more protein from the flow-through. 
+	* If flow is bad, suction can be applied with "The Pig"
 * Wash bound resin
 	* collect all the flow-through from each wash in a used tip tray.  Mix it up and save some for gel analysis after each wash is completed. (Don't want to catch only first or last drips through column; need to homogenize for gel)
 	* typically up to 20mM imidazole is used in the washes.  
 	* 10mM showed a lot of ADH washing of 150126
 	* Try washing with NaCl PO4 (no imidazole), PO4 without NaCl or imidazole, and finally 10mM imidazole PO4. 
+	* If flow is bad, inject the wash directly into the slurry to "fluff" the slurry up and make it less of a barrier for liquid flow. 
 
 ## Elute ADH from the resin
 * Use 200mM imidazole to elute the protein
@@ -132,7 +144,6 @@ category: protein
 ## Clean resin for re-use
 * Note: 2015/2 this worked well.  Re-used buffer worked great.
 	* notes: [experiment notes](https://docs.google.com/document/d/17OYVWsVnC6aX0Kxfoia7YyDMZiUqvZTHGkiAZ90MAuQ/edit?usp=sharing) & [spreadsheet](https://docs.google.com/spreadsheets/d/1-z3U3QN12Qyb0_aAMQLHAI_rHCZkWilnr8UYWF22tAw/edit?usp=sharing) (note: they are embedded in another experiment!)
-
 * Rinse the column with the MES NaCl buffer.  Use a few column volumes.
 	* Use 14mL so you can drip it into a Falcon tube, vortex, and sample for SDS-PAGE. 
 	* Save some of this for SDS-PAGE
