@@ -21,7 +21,7 @@ category: protein
 protein source | amt. to load| comments
 ---------------|-------------
 total cell protein (lysed & spun down | 5-8 or even 20ug per well (mini protean 10-well comb) |
-cell cultures (total protein) | ~5-8 uL of turbid TB E. coli for skinny wells.  Becomes 10uL after adding 4X buffer |
+cell cultures (total protein) | ~5-8 uL of turbid TB E. coli for skinny wells.  Becomes 10uL after adding 4X buffer.  Or, 2uL*OD is appropriate (NanoDrop 10mm OD units). |
 purified protein | 4-8 uL\*uM | works well for ~50-70kDa protein. | 
 purified protein | ~40ng | So minimum concentration is ~5ng/uL. If stock is  Good for ~50-70kDa proteins.   
 
