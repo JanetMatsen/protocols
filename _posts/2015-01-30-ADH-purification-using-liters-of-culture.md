@@ -62,7 +62,8 @@ category: protein
 * Vortex aggressively.  Ideally there will be no clumps loaded into the french press cell.
 * Add DNAse. 
 	* This will lower the viscosity of the lysate, which helps both centrifugation and flowing through the column after the resin is loaded. 
-	* Amount to add is still unknown.   
+	* Amount to add is still unknown.
+	* Added 5mg of DN25-100MG (I think) from Adam 2/10/2015 and viscosity was reasonable.    
 
 ## French press in the large french press cell
 * French press parameters:
