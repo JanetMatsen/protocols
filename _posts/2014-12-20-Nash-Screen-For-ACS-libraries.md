@@ -39,7 +39,7 @@ ear bin.  ATP is in a bigger bottle a few shelves up, and is shared with Amanda.
 
 ## Move the following items to the plate reader
 * a 50mL tube with some assay buffer 
-* all the electronic and non-electronic pipettes
+* all the electronic and non-electronic pipettes (in a bucket)
 * pneumatic pipette
 * stopwatch
 * BugBuster
@@ -59,7 +59,7 @@ ear bin.  ATP is in a bigger bottle a few shelves up, and is shared with Amanda.
 ## Screening a whole plate:
 * Make a master mix of ADH (7uM final), NADH (6mM final), CoA (1mM final), ATP (4mM final), Mg2+ (5mM final), and formate (700+mM final) according to gSpreadsheet
 	* Excess factor should be ~1.3
-		* 1.1 is definitely not enough 141215 JM. 1.35x was too much 150130. 
+		* 1.1 is definitely not enough 141215 JM. 1.2x was too much 150204. 
 		* Drop to 1.15 next time - JM 150204.  Had >1mL extra
 * Pipette autoinduced cells into 96-well plate
 	* Do at bench with flame and cheap non-filtered but sterile tips. 
@@ -85,7 +85,9 @@ Current recipe as of 141220:
     * Can use less steps if it is a less important read. 
 * Decide how long the reaction will be run.  Include this in the file name. 
 	* Assume 15 minutes for now.  
-		* 10 min not enough JM 150129
+		* 10 min not enough JM 150129 <-- ?? 
+	* 7 minutes has been used since 2/4/2014 for 1/2 mL autoinduced cultures
+	* May need to change the time as the autoinduction media recipe and culture volume changes. 
 * Start reaction by adding 40-x uL of the reaction cocktail that includes formate, ATP, CoA, Mg++, purified ADH, BugBuster, and make-up buffer. 
 	* **37uL if 4uL of cells per well**
 		* Set pipette to 4*36uL dispensing
