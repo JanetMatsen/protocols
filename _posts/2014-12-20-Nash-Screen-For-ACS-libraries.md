@@ -149,7 +149,7 @@ Current recipe as of 141220:
 * **Trichloroacetic acid is a strong acid that will burn your skin and eyes very badly.**
   * In 2/2015 Janet got a tiny bit (smaller than a "drop") on her arm and it left a brown spot where it burned.  
 * Proper handling:
-  * gloves are mandatory
+  * gloves and closed-toe, skin-covering shoes are mandatory
   * goggles and a lab coat are encouraged. 
   * do not wear shoes that fail to protect your feet (e.g. mary jane shoes or sandals) 
 * If you do get some on you, wash it off immediately.
