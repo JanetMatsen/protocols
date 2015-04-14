@@ -89,6 +89,7 @@ category: protein
   * The resin comes as a slurry that is 50% buffer, 50% beads.  The beads settle out quickly, so vortex the slurry each time between pipetting.  We don't want the composition of the solution to drift too far from 50%.
   * **Use a 1mL pipette with the tip cut off so the clunky beads don't get stuck.**  
 * **Decide amount of resin to use**
+  * Adam Wargacki uses 1mL of resin per L of culture, as a general rule of thumb.  (for Co-NTA or Ni-NTA) 
   * 2015/2/25 purifications showed that 400mL of autoinduced pET ADH 3K9D failed to saturate 400uL of resin (800uL of slurry).  The NanoDrop OD600 was 0.4 at harvest. [experiment notes](https://docs.google.com/document/d/17OYVWsVnC6aX0Kxfoia7YyDMZiUqvZTHGkiAZ90MAuQ/edit?usp=sharing) & [spreadsheet](https://docs.google.com/spreadsheets/d/1-z3U3QN12Qyb0_aAMQLHAI_rHCZkWilnr8UYWF22tAw/edit?usp=sharing) (note: they are embedded in another experiment!)
   * ** Add notes about ACS L641P and WT purification based on this experiment! **
 * Chose a column size
