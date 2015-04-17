@@ -91,22 +91,24 @@ category: protein
 	* This time has not been optimized yet. Less time should be fine.  
 
 ## Prepare resin
-* Amount to purify:
-	* This is still being tuned. 
-	* **Add notes from 1st round**
+* Amount of resin to use:
+	* This is still being tuned.  Note that unused resin comes as a 50% slurry, so use 2X the volume of resin you want.
+	* Always pipette resin with a 1mL pipette tip that has had its tip cut off.  Otherwise the slurry gets stuck in the tip and the amount of resin pipetted is not what was intended. 
+	* Adam uses 1mL of resin per L of culture (for Co-NTA or Ni-NTA)
 	* 3L of autoinduced culture that was french pressed 2x failed to saturate 3mL of unused resin (6mL of slurry) 1/26/2015 JM 
 * Find a way to hold the column up
 	* Tape the 50mL tube rack to something heavy.  Def want to tape so I won't knock it over and break the column's glass! 
 * If the resin is new:
 	* Load it into the blue column
-	* Rinse it with >3 column volumes of the lysis buffer.  Repeat. 
+	* Rinse it with >3 resin volumes of the lysis buffer.  Repeat. 
 * If the resin is old:
 	* Note the date it was first used, and how many uses.  Update the identifying sticker. 
 	* Wash off the 20% ethanol buffer it is stored in with 2 repeats of >3 column volumes of lysis buffer. 
 
 ## Load clairified lysate onto resin
 * Put cap on the outlet of the column to stop flow.
-* Filter resin through a 5uM filter if you see chunks when you pipette the clarified lysate up from the SS-34 centrifuge bottles
+* (optional) Filter resin through a 5uM filter if you see chunks when you pipette the clarified lysate up from the SS-34 centrifuge bottles
+	* 15042015: no longer filtering through resin.  Use of DNAse seems to help get rid of white floaties/chunks. 
 	* 150126: I used a Millex-SV filter (info taped to pg 575) and it was very hard to push through the syringe.  I had the apparatus on the floor and was using my body weight.  Adam uses something a little bit wider on a sample treated with DNAse and has no flow problems. 
 	* 150204: looking for wider diameter filters, but found none.  Asked VWR rep.  These filters are a few dollars each, so it might be cheaper to just add DNAse.  And then the flow-through step would happen much faster too. 
 * Add the supernatant to the resin. 
