@@ -16,7 +16,7 @@ category: enzyme_assays
 
 ## Prepare previous day(s):
 * A plan of what you are trying to test
-	* Just screening new random libray variants?
+	* Just screening new random library variants?
 	* Are there old colonies that need to be re-tested? 
 	* Do some samples need to be run with biological replicates? 
 * Plates with low enough colony density for picking colonies
@@ -28,7 +28,7 @@ category: enzyme_assays
 * 96-well deep blocks
 * reverse tweezers
 * scissors
-* multihannel 1mL pipette
+* multichannel 1mL pipette
 * autoclaved toothpicks
 * control and test cells
 * media with antibiotics 
@@ -53,6 +53,6 @@ category: enzyme_assays
 
 ## Wrapping up
 * Note on your paper printout the wells that were busted.  Examples include:
-** inoculatd with two different cell types 
+** inoculated with two different cell types 
 * Note in the gSpreadsheet which wells should be discarded from analysis. 
 
