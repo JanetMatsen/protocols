@@ -61,9 +61,6 @@ ear bin.  ATP is in a bigger bottle a few shelves up, and is shared with Amanda.
 * Naming of the scan is crucial: the name is parsed by the R file, and the plate name is crucial for matching data to the descriptive well information in a different spreadsheet.  
 
 ## Screening a whole plate:
-* Make a master mix of ADH (7uM final), NADH (6mM final), CoA (1mM final), ATP (4mM final), Mg2+ (5mM final), and formate (700+mM final) according to gSpreadsheet
-  * Excess factor should be ~1.2
-    * 1.1 is definitely not enough 141215 JM. 1.2x was too much 150204. 1.15 was too little 150409. Settle for 1.18
 * Label plates
   * Plate = 1/2-area polystyrene (non-UV). 
   * Put the date on the A1-H1 side of the plate.  Write non-UV if plate is polystyrene. 
@@ -71,7 +68,14 @@ ear bin.  ATP is in a bigger bottle a few shelves up, and is shared with Amanda.
   * Do at bench with flame and cheap non-filtered but sterile tips. 
   * Make sure source cells just came off the shaker so they will not have settled out of solution. 
   * Eyeball that each tip does in fact have 4uL of cell suspension.  (Loose fitting pipette tips don't suck up liquid).
-:  * Put cells at the bottom of the wells so they will be sure to be in the reaction. 
+  * Put cells at the bottom of the wells so they will be sure to be in the reaction. 
+* Make a master mix of ADH (7uM final), NADH (6mM final), CoA (1mM final), ATP (4mM final), Mg2+ (5mM final), and formate (700+mM final) according to gSpreadsheet
+  * Make sure:
+    * the uM of the ADH stock represents what you are going to use (different batches have different final uM values)
+    * the number of plates is set correctly (usually 4)
+    * you are making an appopriate amount of formate
+  * Excess factor should be ~1.2
+    * 1.1 is definitely not enough 141215 JM. 1.2x was too much 150204. 1.15 was too little 150409. Settle for 1.18
   
 ## -OR-Current recipe when NOT using a master mix:
 Current recipe as of 141220:
