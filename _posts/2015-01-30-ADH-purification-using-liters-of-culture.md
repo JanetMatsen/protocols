@@ -63,7 +63,9 @@ category: protein
 * Add DNAse. 
 	* This will lower the viscosity of the lysate, which helps both centrifugation and flowing through the column after the resin is loaded. 
 	* Amount to add is still unknown.
-	* Added 5mg of [DN25-100MG](http://www.sigmaaldrich.com/catalog/product/sigma/dn25?lang=en&region=US) (I think) from Adam 2/10/2015 and viscosity was reasonable.    
+	* Added 5mg of [DN25-100MG](http://www.sigmaaldrich.com/catalog/product/sigma/dn25?lang=en&region=US) (I think) from Adam 2/10/2015 and viscosity was reasonable. 
+	* Added 1mg of [DN25-100MG](http://www.sigmaaldrich.com/catalog/product/sigma/dn25?lang=en&region=US) to 1.5L of ACS L641P resuspended in 6mL of buffer, and french pressed 4X.  Viscosity was very reasonable.  [5/7/2015]( 
+   
 
 ## French press in the large french press cell
 * French press parameters:
@@ -113,6 +115,8 @@ category: protein
 	* 150204: looking for wider diameter filters, but found none.  Asked VWR rep.  These filters are a few dollars each, so it might be cheaper to just add DNAse.  And then the flow-through step would happen much faster too. 
 * Add the supernatant to the resin. 
 * Put the caps on the top to prevent leaking
+* Make sure the lysate is in good contact with the resin
+	* When using PolyPrep columns with small diameters, the resin can be stuck at the bottom.  If it is stuck, vortex at medium/low speed with tube parallel to the ground to get resin.  Too strong of vortexing results in froth. 
 * Move the assembly to the fridge room and rock the resin for up to 30 minutes to bind the His-tagged protein
 	* Make sure the resin is being sloshed and doesn't sit in one end of the column. 
 
