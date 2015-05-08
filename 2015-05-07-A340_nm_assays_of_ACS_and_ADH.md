@@ -19,8 +19,7 @@ category: enzyme_assays
 
 ### Tips
 * Use of UV-transparent plastic enhances the range at which you can monitor over
-  * Polystyrene has background absorbance of ~____nm.
-* 
+  * Polystyrene has background absorbance of ~??nm.
 
 ### Other resources
 * Function to read plate reader data into R for better plotting: (in progress)
