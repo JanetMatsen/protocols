@@ -38,6 +38,9 @@ ear bin.  ATP is in a bigger bottle a few shelves up, and is shared with Amanda.
   * Watch out for static.
 * Record weights measured on tube, in notebook, and in spreadsheet.
 * Add the appropriate amount of buffer based on spreadsheet calculations.   
+* Make sure we don't run out of reagents:
+  * keep an eye on CoA reserves.  If you open the last bottle, order 2-3 more.
+  * If the NADH bottle gets low, order another.  (We don't use this one as fast, so we don't need to keep an unopened bottle around.)
 
 ## Move the following items to the plate reader
 * a 50mL tube with some assay buffer 
