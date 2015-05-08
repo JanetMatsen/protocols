@@ -143,6 +143,7 @@ Current recipe as of 141220:
   * Are you restreaking for single colonies or just putting blobs on agarose? 
   * For single colonies, store up to 5 strains on a plate. 
   * Can squeeze 20+ on a plate if you just want blobs. 
+* Put cell-filled 96-well plates in the fridge with aluminum seals. 
 
 ## Deposit summary here:
 * [2015 Nash ACS assay screening records summary](https://docs.google.com/spreadsheets/d/1LfRP2Cc1TUjtHdHLKXzJmNh5pnyUYxsQ0h3w_pG4NQI/edit?usp=sharing): A spreadsheet that summarises our library screening efforts. 
@@ -150,7 +151,10 @@ Current recipe as of 141220:
   * Mostly about whole-cell scans, but if you do tests such as the ratio of ACS:ADH required, record it. 
 
 ## Clean up 
-* Charge electronic pipettes that are low in battery. 
+* Charge electronic pipettes that are low in battery.
+* Make sure the plate shaker is turned off.
+* Return pipettes to appropriate places
+* Discard used 96-well plates.  
 
 ## Trichloroacetic Acid Safety ##
 * **Trichloroacetic acid is a strong acid that will burn your skin and eyes very badly.**
